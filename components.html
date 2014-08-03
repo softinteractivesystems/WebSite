@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Open Mind</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/lightbox.css" rel="stylesheet" media="screen">
+    <link href="css/syntax/shCore.css" rel="stylesheet"  media="screen">
+    <link href="css/syntax/shThemeDefault.css" rel="stylesheet"  media="screen">
+
+    
+    <link href="css/style.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/color-default.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/width-full.css" rel="stylesheet" media="screen" title="default">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+
+    <!-- Setting Options -->
+    <div id="color-switcher" class="animated fadeIn animation-dalay-10">
+        <div id="color-switcher-tab">
+            <i class="fa fa-gear fa fa-2x"></i>
+        </div>
+        <div id="color-switcher-content">
+            <h3>Color Selector</h3>
+            <a href="#" rel="color-default.css" class="color default">default</a>
+            <a href="#" rel="color-niceblue.css" class="color niceblue">niceblue</a>
+            <a href="#" rel="color-intenseblue.css" class="color intenseblue">intenseblue</a>
+            <a href="#" rel="color-otherblue.css" class="color otherblue">otherblue</a>
+            <a href="#" rel="color-blue.css" class="color blue">blue</a>
+            <a href="#" rel="color-puregreen.css" class="color puregreen">puregreen</a>
+            <a href="#" rel="color-grassgreen.css" class="color grassgreen">grassgreen</a>
+            <a href="#" rel="color-green.css" class="color green">green</a>        
+            <a href="#" rel="color-olive.css" class="color olive">olive</a>
+            <a href="#" rel="color-gold.css" class="color gold">gold</a>
+            <a href="#" rel="color-orange.css" class="color orange">orange</a>
+            <a href="#" rel="color-pink.css" class="color pink">pink</a>
+            <a href="#" rel="color-fuchsia.css" class="color fuchsia">fuchsia</a>
+            <a href="#" rel="color-violet.css" class="color violet">violet</a>
+            <a href="#" rel="color-red.css" class="color red">red</a>
+
+            <h3>Container Selector</h3>
+            <div class="btn-group">
+                <button href="#" class="option btn btn-sm btn-primary" rel="width-boxed.css">Boxed</button>
+                <button href="#" class="option btn btn-sm btn-primary" rel="width-full.css">Full Width</button>
+            </div>
+        </div>
+    </div> <!-- color-switcher -->
+
+    <div class="boxed animated fadeIn animation-delay-5">
+
+        <header id="header" class="hidden-xs">
+            <div class="container">
+                <div id="header-title">
+                    <h1 class="animated fadeInDown"><a href="index.html">Open <span>Mind</span></a></h1>
+                    <p class="animated fadeInLeft">Clean and elegant theme</p>
+                </div>
+
+                <div id="social-header" class="hidden-xs">
+                    <a href="#" class="social-icon soc-twitter animated fadeInDown animation-delay-1"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social-icon soc-google-plus animated fadeInDown animation-delay-2"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social-icon soc-facebook animated fadeInDown animation-delay-3"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social-icon soc-instagram animated fadeInDown animation-delay-4"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="social-icon soc-pinterest animated fadeInDown animation-delay-5"><i class="fa fa-pinterest"></i></a>
+                    <a href="#" class="social-icon soc-linkedin animated fadeInDown animation-delay-6"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="social-icon soc-github animated fadeInDown animation-delay-7"><i class="fa fa-github"></i></a>
+                </div>
+
+                <div id="search-header" class="hidden-xs animated bounceInRight">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                            </span>
+                    </div><!-- /input-group -->
+                </div>
+            </div> <!-- container -->
+        </header> <!-- header -->
+
+        <nav class="navbar navbar-static-top navbar-mind" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="index.html">Open <span>Mind</span></a>
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-mind-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-inverse"></i>
+                    </button>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-mind-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home Option 1</a></li>
+                                <li><a href="home2.html">Home Option 2</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">UI Elements <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="css.html">CSS</a></li>
+                                <li class="active"><a href="components.html">Components</a></li>
+                                <li><a href="additional_components.html">Additional Components</a></li>
+                                <li><a href="layout.html">Layout</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="coming.html">Coming Soon</a></li>
+                                <li><a href="coming2.html">Coming Soon Option 2</a></li>
+                                <li><a href="timeline.html">Timeline</a></li>
+                                <li><a href="404.html">Error 404</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="full.html">Full Page</a></li>
+                                <li class="dropdown-header">User Pages</li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="profile.html">Profile</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Blog Right Sidebar</a></li>
+                                <li><a href="blog_right.html">Blog Left Sidebar</a></li>
+                                <li><a href="blog_full.html">Blog Full</a></li>
+                                <li><a href="single.html">Blog Single</a></li>
+                                <li><a href="blog2.html">Blog Other Option</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="portfolio2.html">Portfolio Option 2</a></li>
+                                <li><a href="portfolio_item.html">Portfolio item</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+                    </ul> <!-- nav nabvar-nav -->
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a>
+                            <div class="dropdown-menu dropdown-login animated fadeInUp">
+                                <form role="form">
+                                    <h4 class="section-title">Login Form</h4>
+         
+                                    <div class="form-group">
+                                        <div class="input-group login-input">
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                        <br>
+                                        <div class="input-group login-input">
+                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <input type="password" class="form-control" placeholder="Password">
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox"> Remember me
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary pull-right">Login</button>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>      
+                            </div>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">User name</a>
+                            <div class="dropdown-menu dropdown-profile animated fadeInUp">
+                                <img src="img/avatar.jpg" class="imageborder alignleft" alt="image"> 
+                                <h4>Administrator</h4>
+                                admin@openmind.com<br>
+                                <a href="profile.html">Profile</a> | <a href="#">Logout</a>
+
+                            </div>
+                        </li> <!-- dropdown -->
+                    </ul> <!-- nav nabvar-nav -->
+                </div><!-- navbar-collapse -->
+            </div> <!-- container -->
+        </nav> <!-- navbar navbar-default -->
+
+        <header class="wrap-title">
+            <div class="container">
+                <h1 class="page-title">Components</h1>
+
+                <ol class="breadcrumb hidden-xs">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">UI Elements</a></li>
+                    <li class="active">Components</li>
+                </ol>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <nav id="sidebar-menu">
+                        <ul class="nav nav-pills nav-stacked affix menu animated fadeIn" data-spy="affix" data-offset-top="200" data-offset-top="200" data-offset-bottom="450">
+                            <li><a href="#navs" class="smooth">Navs</a></li>
+                            <li><a href="#panels" class="smooth">Panels</a></li>
+                            <li><a href="#collapses" class="smooth">Collapses</a></li>
+                            <li><a href="#lists" class="smooth">Lists</a></li>
+                            <li><a href="#wells" class="smooth">Wells</a></li>
+                            <li><a href="#alerts" class="smooth">Alerts</a></li>
+                            <li><a href="#bars" class="smooth">Progress Bar</a></li>
+                            <li><a href="#modals" class="smooth">Modals</a></li>
+                            <li><a href="#jumbotron" class="smooth">Jumbotron</a></li>
+                        </ul>
+                    </nav>
+                </div> <!-- col -->
+
+                <div class="col-md-9 col-sm-8">
+                    <section id="components">
+
+                        <article class="component-element" id="navs">
+                            <h2 class="underline-title no-margin-top">Navs</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-navs" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-navs" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-navs" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-navs">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                                        <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                                        <li><a href="#messages" data-toggle="tab">Messages</a></li>
+                                        <li><a href="#settings" data-toggle="tab">Settings</a></li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="home">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nollem porro fidelissimae, modo tite aristippi laboramus summam nixam, ponunt fuissent reformidans isdem bonorum hostem accommodare terroribus, virtutem eodem, hac didicisse ad successerit utraque infantes eas occultum, singulis innumerabiles sublata arbitrantur conspiratione tranquillitatem iniuste, omne amicitiae delectamur fructu mediocritatem libenter amicitiae earumque amentur coercendi. Iucundius facile inbecilloque expetenda movere aequitate rationibus iudicandum tribuat alliciat. Quaeque nostro parta cupiditates conversam fugiendus nati, tantis videtur latinam breviter putavisset arbitrer pueros partitio extremum, libris veritatis.</div>
+                                        <div class="tab-pane" id="profile">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dialectica. Epicurus, quos integris, efficiantur clariora idque angatur iam philosophis turbent. Tollatur gustare superstitio torquatum consentinis minus impetus copulationesque imitarentur, breviter sedatio sedentis. Sentit gratia partis careat inflammat ludus prima quis erigimur saluto, exercendi. Eumque semper omnibus primorum incorrupte, brevis mnesarchum terminatas accommodare suscipere tueri iucunditatem tria finitum. Percipitur atomi robustus, ergo seiunctum mortis incorruptis libidinum utramque perdiscere, honeste omnesque nonne ornamenta an sententiae falsis geometriaque. Possumus, invenerit gloriae expediunt convenire aristoteli.</div>
+                                        <div class="tab-pane" id="messages">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ferae tuum quicquid magnis. Patientia pariatur suscepi laetamur disseruerunt istius porro multoque, ars acuti, principio, temperantiam desistunt conclusum sententiam operam consuetudine, democriti nimis liberavisse. Intercapedo, legendi eam molestias explicavi optimi tollatur iustitiam cogitarent. Panaetium iucundum viderer grate maximo, nulla philosophiae dicas cuiquam utilitatibus urbane invenerit euripidis, referatur depravata diuturnum concupiscunt tenent, placebit possim. Disserendum concursionibus severitatem tamque accedis, triarium intellegere calere comprobavit sanguinem aristippus sane iracundiae claris. Animum divelli doleamus amplificarique beata.</div>
+                                        <div class="tab-pane" id="settings">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Secutus quod suaviter quando liquidae sapientia desideraturam intelleges efficiatur. Certissimam suum praetulerit scipio ferentur ludus. Evertunt. Placuit animo atomos delapsa efficiantur malivoli fit superstitione aristoteli, sequi dicam provincia peccant horum situm platonem, cn physicis, vitiis expleantur accusamus geometrica soliditatem effluere amori appareat, percipit sanciret, pertineant inveniri offendimur, situm nollem, honesto magnopere summa putanda probes reprehendunt sedulitatem cumanum simul, efficeretur oportet huius percurri errem, has praebeat atomis maximam vidisse laetamur sollicitare frequenter, quaeritur.</div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="html-navs">
+                                    <pre class="brush: xml">
+<!-- Nav tabs -->
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+    <li><a href="#profile" data-toggle="tab">Profile</a></li>
+    <li><a href="#messages" data-toggle="tab">Messages</a></li>
+    <li><a href="#settings" data-toggle="tab">Settings</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+    <div class="tab-pane active" id="home">...</div>
+    <div class="tab-pane" id="profile">...</div>
+    <div class="tab-pane" id="messages">...</div>
+    <div class="tab-pane" id="settings">...</div>
+</div>
+                                    </pre>
+                                </div>
+                                <div class="tab-pane" id="wordpress-navs">
+                                    <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+
+
+                        <article class="component-element" id="panels">
+                            <h2 class="underline-title no-margin-top">Panels</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-panels" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-panels" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-panels" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-panels">
+                                    <h3>Basic Panel</h3>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-body">
+                                            Basic panel example
+                                        </div>
+                                    </div>
+
+                                    <h3>Panel with heading</h3>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">Panel heading without title</div>
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Panel title</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                    </div>
+
+                                    <h3>Panel with footer</h3>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                        <div class="panel-footer">Panel footer</div>
+                                    </div>
+
+                                    <h3>Panel with heading and footer</h3>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">Panel heading title</div>
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenere iucundius affecta appellant quietus gravissimis praesidium invenire, perpetuis benivolentiam mnesarchum quosvis nullam scientia, inmortalibus per probo magnopere fugiendus corrupisti, sum doceat dolores viveremus mutae victi volunt laborat, quanti facilis tantopere gloriae damna an periculum quippiam virtutem, obruamus salutatus malum declinationem ibidem docere sermo semper accusator, omne ceramico cognoscerem habeo paratus quibusdam effectrices praetorem patriam. Rationis saepti sensibus, desperantes sentiamus, usus pondere expeteremus afferat pulchraeque suscipere, sumus desiderare. Modum perspiciatis magistra iure.</p>
+                                        </div>
+                                        <div class="panel-footer">Panel footer</div>
+                                    </div>
+
+                                    <h3>Color panels</h3>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Panel default</div>
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">Panel primary</div>
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-success">
+                                        <div class="panel-heading">Panel success</div>
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">Panel info</div>
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-warning">
+                                        <div class="panel-heading">Panel warning</div>
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-danger">
+                                        <div class="panel-heading">Panel danger</div>
+                                        <div class="panel-body">
+                                            Panel content
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="html-panels">
+                                    <h3>Basic Panel</h3>
+                                    <pre class="brush: xml">
+
+<div class="panel panel-primary">
+    <div class="panel-body">
+        Basic panel example
+    </div>
+</div>
+                                    </pre>
+                                    <h3>Panel with heading</h3>
+                                    <pre class="brush: xml">
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Panel heading without title</div>
+    <div class="panel-body">
+        Panel content
+    </div>
+</div>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Panel title</h3>
+    </div>
+    <div class="panel-body">
+        Panel content
+    </div>
+</div>
+                                    </pre>
+                                    <h3>Panel with footer</h3>
+                                    <pre class="brush: xml">
+
+<div class="panel panel-primary">
+    <div class="panel-body">
+        Panel content
+    </div>
+    <div class="panel-footer">Panel footer</div>
+</div>
+                                    </pre>
+                                    <h3>Panel with heading and footer</h3>
+                                    <pre class="brush: xml">
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Panel heading title</div>
+    <div class="panel-body">
+        ...
+    </div>
+    <div class="panel-footer">Panel footer</div>
+</div>
+                                    </pre>
+                                    <h3>Color panels</h3>
+                                    <pre class="brush: xml">
+
+<div class="panel panel-default">
+    ...
+</div>
+
+<div class="panel panel-primary">
+    ...
+</div>
+
+<div class="panel panel-success">
+    ...
+</div>
+
+<div class="panel panel-info">
+    ...
+</div>
+
+<div class="panel panel-warning">
+    ...
+</div>
+
+<div class="panel panel-danger">
+    ...
+</div>
+                                    </pre>
+                                </div>
+                                <div class="tab-pane" id="wordpress-panels">
+                                    <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+
+                        <article class="component-element" id="collapses">
+                            <h2 class="underline-title no-margin-top">Collapses</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-collapses" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-collapses" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-collapses" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-collapses">
+                                    <div class="panel-group" id="accordion">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                        Collapsible Group Item #1
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse in">
+                                                <div class="panel-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+                                                        Collapsible Group Item #2
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+                                                        Collapsible Group Item #3
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="html-collapses">
+                                    <pre class="brush: xml">
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Collapsible Group Item #1
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                ...
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+                    Collapsible Group Item #2
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                ...
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+                    Collapsible Group Item #3
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                ...
+            </div>
+        </div>
+    </div>
+</div>
+                                    </pre>
+                                </div>
+                                <div class="tab-pane" id="wordpress-collapses">
+                                    <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+
+
+                        <article class="component-element" id="lists">
+                            <h2 class="underline-title no-margin-top">Lists</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-lists" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-lists" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-lists" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-lists">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h3>Basic List Group</h3>
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Cras justo odio</li>
+                                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                <li class="list-group-item">Morbi leo risus</li>
+                                                <li class="list-group-item">Porta ac consectetur ac</li>
+                                                <li class="list-group-item">Vestibulum at eros</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Badges</h3>
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <span class="badge">14</span>
+                                                    Cras justo odio
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <span class="badge">86</span>
+                                                    Dapibus ac facilisis in
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <span class="badge">194</span>
+                                                    Morbi leo risus
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <span class="badge">4</span>
+                                                    Porta ac consectetur ac
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <span class="badge">54</span>
+                                                    Vestibulum at eros
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h3>Linked items</h3>
+                                            <div class="list-group">
+                                                <a href="#" class="list-group-item active">
+                                                    Cras justo odio
+                                                </a>
+                                                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                                <a href="#" class="list-group-item">Morbi leo risus</a>
+                                                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                                                <a href="#" class="list-group-item">Vestibulum at eros</a>
+                                                <a href="#" class="list-group-item">Vitium sermone inciderit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Custom content</h3>
+                                            <div class="list-group">
+                                                <a href="#" class="list-group-item active">
+                                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                                    <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                                    <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                                    <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="html-lists">
+                                    <h3>Basic List Group</h3>
+                                    <pre class="brush: xml">
+<ul class="list-group">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Morbi leo risus</li>
+    <li class="list-group-item">Porta ac consectetur ac</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+</ul> <!--list-group -->
+                                    </pre>
+                                    <h3>Badges</h3>
+                                    <pre class="brush: xml">
+<ul class="list-group">
+    <li class="list-group-item">
+        <span class="badge">14</span>
+        Cras justo odio
+    </li>
+    <li class="list-group-item">
+        <span class="badge">86</span>
+        Dapibus ac facilisis in
+    </li>
+    <li class="list-group-item">
+        <span class="badge">194</span>
+        Morbi leo risus
+    </li>
+    <li class="list-group-item">
+        <span class="badge">4</span>
+        Porta ac consectetur ac
+    </li>
+    <li class="list-group-item">
+        <span class="badge">54</span>
+        Vestibulum at eros
+    </li>
+</ul> <!--list-group -->
+                                    </pre>
+
+                                    <h3>Linked items</h3>
+                                    <pre class="brush: xml">
+<div class="list-group">
+    <a href="#" class="list-group-item active">
+        Cras justo odio
+    </a>
+    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+    <a href="#" class="list-group-item">Morbi leo risus</a>
+    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+    <a href="#" class="list-group-item">Vestibulum at eros</a>
+    <a href="#" class="list-group-item">Vitium sermone inciderit</a>
+</div> <!--list-group -->
+                                    </pre>
+                                    <h3>Custom content</h3>
+                                    <pre class="brush: xml">
+<div class="list-group">
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">List group item heading</h4>
+        <p class="list-group-item-text">...</p>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">List group item heading</h4>
+        <p class="list-group-item-text">...</p>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">List group item heading</h4>
+        <p class="list-group-item-text">...</p>
+    </a>
+</div> <!--list-group -->
+
+                                    </pre>
+                                </div>
+                                <div class="tab-pane" id="wordpress-lists">
+                                    <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+
+                        <article class="component-element" id="wells">
+                            <h2 class="underline-title no-margin-top">Wells</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-wells" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-wells" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-wells" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-wells">
+                                    <h3>Well</h3>
+                                    <div class="well">
+                                       Venisset lucifugi philosopho sententia dicitis.
+                                    </div>
+                                    <h3>Well large</h3>
+                                    <div class="well well-lg">
+                                        Venisset lucifugi philosopho sententia dicitis.
+                                    </div>
+                                    <h3>Well Small</h3>
+                                    <div class="well well-sm">
+                                        Venisset lucifugi philosopho sententia dicitis.
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="html-wells">
+                                    <h3>Well</h3>
+                                    <pre class="brush: xml">
+<div class="well">
+   Venisset lucifugi philosopho sententia dicitis.
+</div>
+                                    </pre>
+
+                                    <h3>Well large</h3>
+                                    <pre class="brush: xml">
+<div class="well well-lg">
+    Venisset lucifugi philosopho sententia dicitis.
+</div>
+                                    </pre>
+
+                                    <h3>Well Small</h3>
+                                    <pre class="brush: xml">
+<div class="well well-sm">
+    Venisset lucifugi philosopho sententia dicitis.
+</div>
+                                    </pre>
+                                </div>
+                                <div class="tab-pane" id="wordpress-wells">
+                                 <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+
+                        <article class="component-element" id="alerts">
+                            <h2 class="underline-title no-margin-top">Alerts</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-alerts" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-alerts" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-alerts" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-alerts">
+                                    <div class="alert alert-success">
+                                        <strong>Well done!</strong> You successfully read this important alert message.
+                                    </div>
+
+                                    <div class="alert alert-info">
+                                        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                                    </div>
+
+                                    <div class="alert alert-warning">
+                                        <strong>Warning!</strong> Best check yo self, you're not looking too good.
+                                    </div>
+
+                                    <div class="alert alert-danger">
+                                        <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="html-alerts">
+                                    <pre class="brush: xml">
+<div class="alert alert-success">
+    <strong>Well done!</strong> You successfully read this important alert message.
+</div>
+
+<div class="alert alert-info">
+    <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+</div>
+
+<div class="alert alert-warning">
+    <strong>Warning!</strong> Best check yo self, you're not looking too good.
+</div>
+
+<div class="alert alert-danger">
+    <strong>Oh snap!</strong> Change a few things up and try submitting again.
+</div>
+                                   </pre >
+                                </div>
+                                <div class="tab-pane" id="wordpress-alerts">
+                                    <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+
+
+                        <article class="component-element" id="bars">
+                            <h2 class="underline-title no-margin-top">Progress bars</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-bars" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-bars" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-bars" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-bars">
+                                    <h3>Default Progress</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <h3>Small Progress</h3>
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+
+
+                                    <h3>Very Small Progress</h3>
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <h3>Large Progress</h3>
+                                    <div class="progress progress-lg">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-lg">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-lg">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-lg">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-lg">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <h3>Progress Bar Striped</h3>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="html-bars">
+                                   <h3>Default Progress</h3>
+                                   <pre class="brush: xml">
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        <span class="sr-only">60% Complete</span>
+    </div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+        <span class="sr-only">40% Complete (success)</span>
+    </div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+        <span class="sr-only">20% Complete</span>
+    </div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+        <span class="sr-only">60% Complete (warning)</span>
+    </div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="sr-only">80% Complete</span>
+    </div>
+</div>
+                                    </pre>
+                                    <h3>Small Progress</h3>
+                                    <pre class="brush: xml">
+<div class="progress progress-sm">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        <span class="sr-only">60% Complete</span>
+    </div>
+</div>
+
+<div class="progress progress-sm">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+        <span class="sr-only">40% Complete (success)</span>
+    </div>
+</div>
+
+<div class="progress progress-sm">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+        <span class="sr-only">20% Complete</span>
+    </div>
+</div>
+
+<div class="progress progress-sm">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+        <span class="sr-only">60% Complete (warning)</span>
+    </div>
+</div>
+
+<div class="progress progress-sm">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="sr-only">80% Complete</span>
+    </div>
+</div>
+                                    </pre>
+                                    <h3>Very Small Progress</h3>
+                                    <pre class="brush: xml">
+<div class="progress progress-xs">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        <span class="sr-only">60% Complete</span>
+    </div>
+</div>
+
+<div class="progress progress-xs">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+        <span class="sr-only">40% Complete (success)</span>
+    </div>
+</div>
+
+<div class="progress progress-xs">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+        <span class="sr-only">20% Complete</span>
+    </div>
+</div>
+
+<div class="progress progress-xs">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+        <span class="sr-only">60% Complete (warning)</span>
+    </div>
+</div>
+
+<div class="progress progress-xs">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="sr-only">80% Complete</span>
+    </div>
+</div>
+                                    </pre>
+                                    <h3>Large Progress</h3>
+                                    <pre class="brush: xml">
+<div class="progress progress-lg">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        <span class="sr-only">60% Complete</span>
+    </div>
+</div>
+
+<div class="progress progress-lg">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+        <span class="sr-only">40% Complete (success)</span>
+    </div>
+</div>
+
+<div class="progress progress-lg">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+        <span class="sr-only">20% Complete</span>
+    </div>
+</div>
+
+<div class="progress progress-lg">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+        <span class="sr-only">60% Complete (warning)</span>
+    </div>
+</div>
+
+<div class="progress progress-lg">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="sr-only">80% Complete</span>
+    </div>
+                                    </div>
+                                    </pre>
+                                    <h3>Progress Bar Striped</h3>
+                                    <pre class="brush: xml">
+<div class="progress progress-striped active">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        <span class="sr-only">60% Complete</span>
+    </div>
+</div>
+
+<div class="progress progress-striped active">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+        <span class="sr-only">40% Complete (success)</span>
+    </div>
+</div>
+
+<div class="progress progress-striped active">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+        <span class="sr-only">20% Complete</span>
+    </div>
+</div>
+
+<div class="progress progress-striped active">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+        <span class="sr-only">60% Complete (warning)</span>
+    </div>
+</div>
+
+<div class="progress progress-striped active">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        <span class="sr-only">80% Complete (danger)</span>
+    </div>
+</div>
+                                    </pre>
+                                </div>
+                                <div class="tab-pane" id="wordpress-bars">
+                                    <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+
+
+                        <article class="component-element" id="modals">
+                            <h2 class="underline-title no-margin-top">Modals</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-modals" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-modals" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-modals" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-modals">
+                                    <!-- Button trigger modal -->
+                                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                        Launch demo modal
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, corporis, maxime, hic facere recusandae nam distinctio magni perferendis quis suscipit voluptates itaque nisi ea atque obcaecati laudantium quaerat omnis fugiat doloremque repellendus dolorem et labore reiciendis accusamus culpa. Similique, natus laboriosam rerum repellat a perferendis qui tempore eveniet. Totam, velit.</p>
+                                                    <p>Aliquid, numquam, aspernatur quos nam tempora repellat soluta facilis ipsa debitis iure officia excepturi optio tenetur provident nobis sapiente inventore porro eveniet ab dolore nisi neque vel laboriosam aut id! Iure, modi, ducimus, culpa, sit exercitationem voluptatem ab quaerat dolorum amet quae accusantium reiciendis repellendus dicta debitis qui nisi magni.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div>
+                                            </div><!-- modal-content -->
+                                        </div><!-- modal-dialog -->
+                                    </div><!-- modal -->
+                                </div>
+                                <div class="tab-pane" id="html-modals">
+                                    <pre class="brush: xml">
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+                                   </pre >
+                                </div>
+                                <div class="tab-pane" id="wordpress-modals">
+                                    <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+
+
+                        <article class="component-element" id="jumbotron">
+                            <h2 class="underline-title no-margin-top">Jumbotron</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#example-jumbotron" data-toggle="tab">Example</a></li>
+                                <li><a href="#html-jumbotron" data-toggle="tab">HTML</a></li>
+                                <li><a href="#wordpress-jumbotron" data-toggle="tab">Wordpress</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="example-jumbotron">
+                                    <div class="jumbotron">
+                                        <h1>Hello, world!</h1>
+                                        <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                                        <p><a class="btn btn-primary btn-lg pull-right" role="button">Learn more</a></p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="html-jumbotron">
+                                    <pre class="brush: xml">
+<div class="jumbotron">
+    <h1>Hello, world!</h1>
+    <p>...</p>
+    <p><a class="btn btn-primary btn-lg pull-right" role="button">Learn more</a></p>
+</div>
+                                   </pre >
+                                </div>
+                                <div class="tab-pane" id="wordpress-jumbotron">
+                                    <h3>Coming soon</h3>
+                                    <p>Next Version!</p>
+                                </div>
+                            </div> 
+                        </article>
+                    </section>
+                </div> <!-- col -->
+            </div>
+        </div> <!-- container -->
+        
+        <aside id="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="footer-widget-title">Sitemap</h3>
+                        <ul class="list-unstyled three_cols">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Portafolio</a></li>
+                            <li><a href="#">Works</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Cantact</a></li>
+                        </ul>
+                        <h3 class="footer-widget-title">Subscribe</h3>
+                        <p>Lorem ipsum Amet fugiat elit nisi anim mollit in labore ut esse Duis ullamco ad dolor veniam velit lorem ipsum dolor sit amet, consectetur adipisicing..</p>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email Adress">
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" type="button">Subscribe</button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Recent Post</h3>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/m2.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor</a></h4>
+                                    <small>August 18, 2013</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/m11.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor</a></h4>
+                                    <small>September 14, 2013</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/m4.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum Dolor cupidatat adipisicing et fugiat</a></h4>
+                                    <small>October 9, 2013</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Recent Works</h3>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf1.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf2.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf3.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf4.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </aside> <!-- footer-widgets -->
+
+        <footer id="footer">
+            <p>&copy; 2013 <a href="#">Open Mind</a>, inc. All rights reserved.</p>
+        </footer>
+
+    </div> <!-- boxed -->
+
+
+    <div id="back-top">
+        <a href="#header"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/styleswitcher.js"></script>
+
+    <script src="js/syntax/shCore.js"></script>
+    <script src="js/syntax/shBrushXml.js"></script>
+    <script src="js/syntax/shBrushJScript.js"></script>
+
+    <script type="text/javascript">
+        SyntaxHighlighter.all()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+1.1 
+------------------
+
+- Add Back to top Link
+- New Coming Soon Page
+- New Timeline Page
+- New Home Page Option
+- New Box Content Component
+- New Slideshow Image Component
+- Fix Outline Firefox
+
+
+1.0 
+------------------
+
+- Initial Release

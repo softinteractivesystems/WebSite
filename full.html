@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Open Mind</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/lightbox.css" rel="stylesheet" media="screen">
+    <link href="css/syntax/shCore.css" rel="stylesheet"  media="screen">
+    <link href="css/syntax/shThemeDefault.css" rel="stylesheet"  media="screen">
+
+    
+    <link href="css/style.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/color-default.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/width-full.css" rel="stylesheet" media="screen" title="default">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Setting Options -->
+    <div id="color-switcher" class="animated fadeIn animation-dalay-10">
+        <div id="color-switcher-tab">
+            <i class="fa fa-gear fa fa-2x"></i>
+        </div>
+        <div id="color-switcher-content">
+            <h3>Color Selector</h3>
+            <a href="#" rel="color-default.css" class="color default">default</a>
+            <a href="#" rel="color-niceblue.css" class="color niceblue">niceblue</a>
+            <a href="#" rel="color-intenseblue.css" class="color intenseblue">intenseblue</a>
+            <a href="#" rel="color-otherblue.css" class="color otherblue">otherblue</a>
+            <a href="#" rel="color-blue.css" class="color blue">blue</a>
+            <a href="#" rel="color-puregreen.css" class="color puregreen">puregreen</a>
+            <a href="#" rel="color-grassgreen.css" class="color grassgreen">grassgreen</a>
+            <a href="#" rel="color-green.css" class="color green">green</a>        
+            <a href="#" rel="color-olive.css" class="color olive">olive</a>
+            <a href="#" rel="color-gold.css" class="color gold">gold</a>
+            <a href="#" rel="color-orange.css" class="color orange">orange</a>
+            <a href="#" rel="color-pink.css" class="color pink">pink</a>
+            <a href="#" rel="color-fuchsia.css" class="color fuchsia">fuchsia</a>
+            <a href="#" rel="color-violet.css" class="color violet">violet</a>
+            <a href="#" rel="color-red.css" class="color red">red</a>
+
+            <h3>Container Selector</h3>
+            <div class="btn-group">
+                <button href="#" class="option btn btn-sm btn-primary" rel="width-boxed.css">Boxed</button>
+                <button href="#" class="option btn btn-sm btn-primary" rel="width-full.css">Full Width</button>
+            </div>
+        </div>
+    </div> <!-- color-switcher -->
+
+    <div class="boxed animated fadeIn animation-delay-5">
+
+        <header id="header" class="hidden-xs">
+            <div class="container">
+                <div id="header-title">
+                    <h1 class="animated fadeInDown"><a href="index.html">Open <span>Mind</span></a></h1>
+                    <p class="animated fadeInLeft">Clean and elegant theme</p>
+                </div>
+
+                <div id="social-header" class="hidden-xs">
+                    <a href="#" class="social-icon soc-twitter animated fadeInDown animation-delay-1"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social-icon soc-google-plus animated fadeInDown animation-delay-2"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social-icon soc-facebook animated fadeInDown animation-delay-3"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social-icon soc-instagram animated fadeInDown animation-delay-4"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="social-icon soc-pinterest animated fadeInDown animation-delay-5"><i class="fa fa-pinterest"></i></a>
+                    <a href="#" class="social-icon soc-linkedin animated fadeInDown animation-delay-6"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="social-icon soc-github animated fadeInDown animation-delay-7"><i class="fa fa-github"></i></a>
+                </div>
+
+                <div id="search-header" class="hidden-xs animated bounceInRight">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                            </span>
+                    </div><!-- /input-group -->
+                </div>
+            </div> <!-- container -->
+        </header> <!-- header -->
+
+        <nav class="navbar navbar-static-top navbar-mind" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="index.html">Open <span>Mind</span></a>
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-mind-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-inverse"></i>
+                    </button>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-mind-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home Option 1</a></li>
+                                <li><a href="home2.html">Home Option 2</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">UI Elements <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="css.html">CSS</a></li>
+                                <li><a href="components.html">Components</a></li>
+                                <li><a href="additional_components.html">Additional Components</a></li>
+                                <li><a href="layout.html">Layout</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="coming.html">Coming Soon</a></li>
+                                <li><a href="coming2.html">Coming Soon Option 2</a></li>
+                                <li><a href="timeline.html">Timeline</a></li>
+                                <li><a href="404.html">Error 404</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li class="active"><a href="full.html">Full Page</a></li>
+                                <li class="dropdown-header">User Pages</li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="profile.html">Profile</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Blog Right Sidebar</a></li>
+                                <li><a href="blog_right.html">Blog Left Sidebar</a></li>
+                                <li><a href="blog_full.html">Blog Full</a></li>
+                                <li><a href="single.html">Blog Single</a></li>
+                                <li><a href="blog2.html">Blog Other Option</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="portfolio2.html">Portfolio Option 2</a></li>
+                                <li><a href="portfolio_item.html">Portfolio item</a></li>
+                            </ul>
+                        </li> <!-- dropdown -->
+                    </ul> <!-- nav nabvar-nav -->
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a>
+                            <div class="dropdown-menu dropdown-login animated fadeInUp">
+                                <form role="form">
+                                    <h4 class="section-title">Login Form</h4>
+         
+                                    <div class="form-group">
+                                        <div class="input-group login-input">
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                        <br>
+                                        <div class="input-group login-input">
+                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <input type="password" class="form-control" placeholder="Password">
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox"> Remember me
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary pull-right">Login</button>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>      
+                            </div>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">User name</a>
+                            <div class="dropdown-menu dropdown-profile animated fadeInUp">
+                                <img src="img/avatar.jpg" class="imageborder alignleft" alt="image"> 
+                                <h4>Administrator</h4>
+                                admin@openmind.com<br>
+                                <a href="profile.html">Profile</a> | <a href="#">Logout</a>
+
+                            </div>
+                        </li> <!-- dropdown -->
+                    </ul> <!-- nav nabvar-nav -->
+                </div><!-- navbar-collapse -->
+            </div> <!-- container -->
+        </nav> <!-- navbar navbar-default -->
+
+        <header class="wrap-title">
+            <div class="container">
+                <h1 class="page-title">Full Page</h1>
+
+                <ol class="breadcrumb hidden-xs">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li class="active">Full Page</li>
+                </ol>
+            </div>
+        </header>
+          
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Phasellus a urna sagittis, malesuada velit in, tristique lectus. Proin scelerisque ligula libero, vel molestie orci egestas id. Pellentesque a est semper odio elementum pulvinar a id erat. <a href="#">Duis consectetur</a> nunc nec diam scelerisque ornare. Maecenas eu dui et eros auctor fringilla. Suspendisse dignissim, neque at luctus aliquam, elit <em>nulla condimentum urna</em>, ut tristique elit libero quis mauris. Sed eget ante iaculis, scelerisque est nec, euismod neque. Ut posuere nulla velit, ac mollis nisl fringilla congue. Phasellus tincidunt libero id bibendum euismod. Nullam vestibulum porttitor eleifend. Integer sit amet ante non libero faucibus laoreet. Sed rhoncus nisl mi, in lobortis purus porttitor id.</p>
+                    <p class="lead">In pretium vitae ligula congue posuere. Nam commodo sed magna non aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus consectetur elit nec aliquet laoreet. Praesent accumsan venenatis justo. Morbi ut lectus id dolor fermentum pellentesque ut blandit felis.</p>
+                    <p>Phasellus sagittis quam vitae erat pharetra, eget fermentum est vulputate. Sed nibh massa, suscipit sit amet auctor vitae, aliquam non turpis. Duis vitae consequat nunc, in scelerisque nisl. Pellentesque in laoreet nisl. Etiam scelerisque neque risus, a ultricies mauris suscipit ultrices. Donec bibendum ultricies diam eu scelerisque. Donec vulputate nisi a sollicitudin elementum. Integer vel vulputate elit, eget laoreet dolor. Nam vehicula, massa id sagittis commodo, dolor mi tincidunt justo, at malesuada tellus orci vitae leo. Etiam malesuada lacus tempus metus hendrerit, at fringilla diam posuere. Aenean sit amet massa justo. Phasellus non tortor vel erat rutrum blandit et eget dui. Fusce nec condimentum ipsum, nec condimentum justo. Cras in posuere orci. <strong>Donec faucibus sagittis pulvinar</strong>. </p>
+                    <h3>Donec faucibus sagittis pulvinar</h3>
+                    <ul>
+                        <li>Nunc ac elit at leo tincidunt laoreet in eu justo.</li>
+                        <li>Etiam aliquam risus non nulla blandit dapibus.</li>
+                        <li>Praesent ac nibh pellentesque, sollicitudin magna et, pretium sem.</li>
+                        <li>Nam vehicula nisi vitae quam sodales pellentesque.
+                            <ol>
+                                <li>Integer pellentesque metus ac vulputate lacinia.</li>
+                                <li>Nam at nulla ut elit tristique pulvinar.</li>
+                                <li>Fusce volutpat quam sed adipiscing iaculis.</li>
+                            </ol>
+                        </li>
+                        <li>Sed ullamcorper nisi non aliquet placerat.</li>
+                        <li>Nam luctus neque vitae ligula dictum consectetur.</li>
+                    </ul>
+                    <p>Etiam sagittis augue lorem, at gravida nunc bibendum in. Quisque nulla augue, euismod ac faucibus a, vestibulum ut justo. Nullam gravida enim mauris, et convallis risus vestibulum sit amet. Nunc mollis elit sed magna egestas viverra vel at lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam sed leo ultrices, condimentum nisl nec, fringilla urna. Donec porta lectus ut dui auctor, sed gravida sapien interdum. Proin rhoncus non nisi id rhoncus. Curabitur viverra nunc ultrices euismod tincidunt. Maecenas aliquet, orci ac facilisis lobortis, eros mi ultrices urna, ut rhoncus ante felis ut tellus. Praesent leo lacus, porta ut ultrices sit amet, ultrices a elit. Etiam metus purus, auctor eu augue eu, tempus dignissim est. Aliquam erat volutpat. Phasellus ac interdum metus. Nunc ac ante a ligula hendrerit suscipit sed nec felis. Morbi quis est convallis, pellentesque diam in, iaculis leo. </p>
+                    <h3>Nulla vitae convallis lectus</h3>
+                    <img src="js/holder.js/200x170" alt="" class="imageborder alignleft">
+                    <p>Nulla vitae convallis lectus, nec dictum ante. Proin metus orci, pharetra a volutpat eget, scelerisque tincidunt mi. Integer placerat consectetur cursus. Praesent blandit commodo placerat. Donec in feugiat lectus. Mauris in quam luctus, tincidunt libero aliquam, commodo dui. Fusce non arcu in tellus lacinia fringilla. Praesent fermentum eros vel metus pharetra faucibus. Curabitur dolor mauris, elementum eu vehicula in, pharetra non arcu. Cras mattis ultricies arcu et sagittis. Donec mattis leo in nunc varius laoreet. Etiam blandit ultrices sem, vel tincidunt dui viverra ac. Cras blandit mauris non pellentesque porta. Maecenas volutpat, felis ac suscipit malesuada, metus tellus hendrerit urna, in porttitor ligula augue in metus. Integer vitae augue est. Quisque rhoncus consectetur eros, in aliquet orci accumsan non.</p>
+                    <p>Curabitur aliquet arcu id dui tristique aliquet. Quisque sed sapien ut magna pulvinar tincidunt at a dui. Aliquam non porta metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae est dictum, posuere nibh vehicula, blandit nibh. Integer adipiscing, dolor vitae porttitor viverra, nisi nisi interdum magna, non varius mi risus vitae eros. Nunc est augue, placerat vitae purus ac, consectetur tristique risus. Maecenas in dolor nisl. Integer nec nulla vel metus porttitor congue. Vivamus et massa rhoncus, commodo velit eu, sodales velit. Nullam molestie, est sit amet luctus luctus, urna enim varius orci, vitae lobortis libero ante vel est. Phasellus ornare quis felis non auctor. Donec consectetur mi elit, dignissim suscipit libero consectetur eleifend.</p>
+                    <blockquote><p>Nulla mollis suscipit venenatis. Donec elementum ac dolor eget mollis. Aenean fringilla gravida cursus. Nam massa justo, lacinia nec convallis id, venenatis ut lectus. Ut dignissim nulla quis ornare porta. Pellentesque consequat orci urna, vel faucibus mauris ultricies eu.</p><small>consequat ligula sit</small></blockquote>
+                    <p>Mauris ipsum felis, pulvinar eget tempor a, fringilla in sapien. Duis consequat ligula sit amet mi viverra hendrerit. Sed faucibus sem eget neque porttitor sagittis. Nulla in eleifend augue, aliquet aliquet ante. Fusce pretium interdum tincidunt. Nullam dapibus egestas fermentum. Vivamus elit massa, viverra ac pellentesque ac, bibendum id nisi. Quisque ac hendrerit nunc. Phasellus dapibus nisi a sem luctus, id blandit neque dapibus. Integer rutrum placerat nibh, in ornare augue dapibus et. Cras id auctor mi. Donec est velit, mollis eget elementum at, tincidunt quis erat. Quisque rhoncus ac nisi nec pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi id sollicitudin leo.</p>
+                    <img src="js/holder.js/200x180/social" alt="" class="imageborder alignright">
+                    <p>Integer sed ipsum ut sem facilisis pharetra. Donec dolor justo, dictum ac enim vel, venenatis aliquam tortor. Phasellus vehicula velit nisl, sed fringilla nulla ultrices vel. Mauris nec porttitor leo. Donec consequat ante non mi sodales, eu aliquam mi venenatis. Donec arcu risus, vulputate non lectus porttitor, laoreet scelerisque dui. Vestibulum et leo sapien. Proin tristique est nec nisi pellentesque interdum. Ut id lacinia lorem. Aenean convallis, augue lobortis sagittis sollicitudin, eros sem dictum arcu, at mollis justo ante sit amet quam. Donec vehicula arcu quis sapien pellentesque, sit amet mattis purus euismod. Phasellus tincidunt, augue sit amet ullamcorper dignissim, sem nibh sollicitudin ante, nec placerat diam nunc sit amet turpis. Quisque eu quam fermentum, gravida lorem in, posuere nibh. In vel felis id tellus cursus facilisis in sit amet lectus.</p>
+                    <p>Donec porta condimentum ligula vitae adipiscing. Morbi pulvinar malesuada viverra. Vestibulum eget leo eget neque porttitor ultricies quis ut dolor. Etiam auctor scelerisque dolor ac cursus. Sed vitae erat odio. Pellentesque sed vulputate nulla, posuere venenatis neque. Ut in lacinia metus. Duis nec tellus et lacus iaculis sollicitudin. Vestibulum eget vehicula lectus, ut laoreet purus. Pellentesque aliquam, felis bibendum bibendum imperdiet, ipsum nibh vulputate erat, ut molestie enim neque eu nulla. Duis a lorem quam. Aenean eu urna mauris. Sed elementum arcu venenatis massa vehicula, et dignissim dui facilisis. Aenean sed risus vitae enim consequat volutpat. Donec dictum elit in pellentesque lacinia.</p>
+                </div>
+            </div>
+        </div> <!-- container  -->
+
+        <aside id="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="footer-widget-title">Sitemap</h3>
+                        <ul class="list-unstyled three_cols">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Portafolio</a></li>
+                            <li><a href="#">Works</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Cantact</a></li>
+                        </ul>
+                        <h3 class="footer-widget-title">Subscribe</h3>
+                        <p>Lorem ipsum Amet fugiat elit nisi anim mollit in labore ut esse Duis ullamco ad dolor veniam velit lorem ipsum dolor sit amet, consectetur adipisicing..</p>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email Adress">
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" type="button">Subscribe</button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Recent Post</h3>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/m2.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor</a></h4>
+                                    <small>August 18, 2013</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/m11.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor</a></h4>
+                                    <small>September 14, 2013</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/m4.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum Dolor cupidatat adipisicing et fugiat</a></h4>
+                                    <small>October 9, 2013</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Recent Works</h3>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf1.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf2.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf3.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf4.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </aside> <!-- footer-widgets -->
+
+        <footer id="footer">
+            <p>&copy; 2013 <a href="#">Open Mind</a>, inc. All rights reserved.</p>
+        </footer>
+
+    </div> <!-- boxed -->
+
+
+    <div id="back-top">
+        <a href="#header"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/styleswitcher.js"></script>
+
+    <script src="js/syntax/shCore.js"></script>
+    <script src="js/syntax/shBrushXml.js"></script>
+    <script src="js/syntax/shBrushJScript.js"></script>
+
+    <script type="text/javascript">
+        SyntaxHighlighter.all()
+    </script>
+</body>
+
+</html>
