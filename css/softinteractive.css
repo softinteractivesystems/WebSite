@@ -5,5 +5,8 @@
         }
         
        
-        
+        element.style {
+text-transform: capitalize;
+word-spacing: 1px;
+}
     </style>
