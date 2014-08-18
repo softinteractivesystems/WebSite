@@ -1,0 +1,7 @@
+<style>
+        #header-title h1{
+            text-transform:  capitalize;
+            word-spacing: 1px;
+        }
+        
+    </style>
