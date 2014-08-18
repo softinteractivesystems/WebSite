@@ -4,9 +4,7 @@
             word-spacing: 1px;
         }
         
-       
-        element.style {
-text-transform: capitalize;
-word-spacing: 1px;
+       #header-title h1 {
+word-spacing: none;
 }
     </style>
