@@ -1,10 +1,28 @@
 <style>
-        #header-title h1{
-            text-transform:  capitalize;
-            word-spacing: 1px;
-        }
-        
-       #header-title h1 {
-word-spacing: none;
+
+.animated fadeInDown
+{
+   text-transform: lowercase;
+   word-spacing: 1px;
 }
-    </style>
+
+#header-title h1
+{
+  font-family:'Abel',sans-serif;
+  text-transform:capitalize;
+  word-spacing:1px;
+  margin:20px 0 10px 0;
+  font-size:3.2em;color:#fff
+}
+
+#header-title h1 span
+{
+   color:#6aceeb
+}
+
+#header-title p
+{
+  font-size:1.2em
+}
+
+</style>
