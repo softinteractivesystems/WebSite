@@ -25,4 +25,73 @@
   font-size:1.2em
 }
 
+#home-blog
+{
+   display: none;
+}
+#home-works
+{
+   display: none;
+}
+.soc-instagram
+{
+   	display: none; 
+}
+.soc-pinterest
+{
+   	display: none; 
+}
+.soc-github
+{
+	display: none;
+}
+#color-switcher
+{
+	display: none;
+}
+.navbar-right
+{
+	display: none;
+}
+.fadeInDown
+{
+	display: ;
+}
+#header-title h1
+{
+	margin: 35px 0 10px 0;
+	font-size: 3.6em;
+}
+.footer_col-md-4
+{
+	display:none;
+}
+#logos {
+
+text-align: center;
+}
+
+
+.pipe-separated-list-container ul li 
+{ 
+ 	float: left; 
+	border-right: 1px solid white; 
+	padding: 0 .5em; 
+	text-align: center;
+	list-style: none;
+	
+
+}
+
+.pipe-separated-list-container ul li:last-child 
+{ 
+	border: 0; 
+}
+
+.ulcenter
+{
+	text-align: center;
+	padding-left: 450px;
+}
+
 </style>
