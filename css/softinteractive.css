@@ -1,3 +1,4 @@
+<style>
 
 .animated fadeInDown
 {
@@ -57,7 +58,7 @@
 }
 .fadeInDown
 {
-
+	display: ;
 }
 #header-title h1
 {
@@ -68,8 +69,7 @@
 {
 	display:none;
 }
-#logos
-{
+#logos {
 
 text-align: center;
 }
@@ -82,7 +82,7 @@ text-align: center;
 	padding: 0 .5em; 
 	text-align: center;
 	list-style: none;
-    position: relative;
+	
 
 }
 
@@ -91,6 +91,11 @@ text-align: center;
 	border: 0; 
 }
 
+.ulcenter
+{
+	text-align: center;
+	padding-left: 450px;
+}
 
 .wrap-title
 {
@@ -108,3 +113,4 @@ text-align: center;
 .fa-html5:before{content:"\f0c0"}
 
 .fa-tachometer:before{content:"\f109"}
+</style>
