@@ -1,6 +1,5 @@
-<style>
 
-.animated fadeInDown
+.animatedfadeInDown
 {
    text-transform: lowercase;
    word-spacing: 1px;
@@ -106,11 +105,5 @@ text-align: center;
     margin-top: 10px;
 }
 
-.fa-dropbox:before{content:"\f10a"}
 
-.fa-cloud-download:before{content:"\f13b"}
 
-.fa-html5:before{content:"\f0c0"}
-
-.fa-tachometer:before{content:"\f109"}
-</style>
