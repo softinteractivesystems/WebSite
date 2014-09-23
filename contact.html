@@ -187,22 +187,24 @@
 
                     <p>Please briefly describe your project or development need in the form below. An experienced member of our team will respond to your inquisition within a timely fashion.</p>
 
-                    <form role="form">
+                    <form role="form" name="sentMessage"  id="contactForm">
                         <div class="form-group">
-                            <label for="InputName">Name</label>
-                            <input type="email" class="form-control" id="InputName">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name">
                         </div>
                         <div class="form-group">
-                            <label for="InputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="InputEmail1">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email">
                         </div>
                         <div class="form-group">
-                            <label for="InputMessage">Mesagge</label>
-                            <textarea class="form-control" id="InputMessage" rows="8"></textarea>
+                            <label for="message">Mesagge</label>
+                            <textarea class="form-control" id="message" rows="8"></textarea>
                         </div>
+                        <div id="success"> </div> <!-- For success/fail messages -->
                         <button type="submit" class="btn btn-primary pull-right">Submit</button>
                         <div class="clearfix"></div>
                     </form>
+
                 </section>
             </div>
 
@@ -366,7 +368,8 @@
     <script src="js/syntax/shCore.js"></script>
     <script src="js/syntax/shBrushXml.js"></script>
     <script src="js/syntax/shBrushJScript.js"></script>
-
+    <script src="./js/jqBootstrapValidation.js"></script>
+    <script src="./js/contact_me.js"></script>
     <script type="text/javascript">
         SyntaxHighlighter.all()
     </script>
